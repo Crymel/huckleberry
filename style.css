@@ -25,13 +25,21 @@ body {
 	background-color: var(--grey-medium);
 }
 
+p {
+	margin-top: 16px;
+	margin-bottom: 0;
+	font-size: 20px;
+	line-height: 150%;
+}
+
 header {
 	background-color: var(--white);
 	border-bottom: 8px solid var(--grey-light);
 }
 
-.title {
-	margin-bottom: 48px;
+.max-width-wrapper {
+	max-width: 800px;
+	margin-inline: auto;
 }
 
 .intro-chunk {
@@ -42,24 +50,17 @@ header {
 	max-width: 415px;
 }
 
+.title {
+	margin-bottom: 48px;
+	font-weight: 800;
+}
+
 main {
 	padding-block: 64px;
 }
 
-title {
-	font-size: 2rem;
-	width: 100%;
-}
-
 strong {
 	color: var(--green);
-}
-
-p {
-	margin-top: 16px;
-	margin-bottom: 0;
-	font-size: 20px;
-	line-height: 150%;
 }
 
 h2 {
@@ -69,11 +70,6 @@ h2 {
 	margin: 0;
 	margin-inline-start: -32px;
 	width: fit-content;
-}
-
-.max-width-wrapper {
-	max-width: 800px;
-	margin-inline: auto;
 }
 
 .card {
